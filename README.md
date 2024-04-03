@@ -89,6 +89,21 @@ npm install
 
 # Start a local dev server
 npm start
+
+# Git add
+git add .
+
+# Git Commit
+git commit -m "message"
+
+# Git push
+git push
+
+# deploy
+npm run deploy
+
+# GitHub pages Save
+# setting > pages > branch change > gh-pages > save
 ```
 
 ## Linking Portfolio to GitHub
