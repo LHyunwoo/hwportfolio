@@ -21,10 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Hyeon Woo",
-  title: "Hi all, I'm HyeonWoo",
+  // title: "Hi all, I'm HyeonWoo",
+  title: "Hi all, I'm Turtle",
   subTitle: emoji(
     // "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-    "React & Typescript projects"
+    // "React & Typescript projects"
+    "도인❤️"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -35,13 +37,13 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/LHyunwoo",
+  gmail: "young915190@gmail.com",
+  Instagram:"https://www.instagram.com/hyuunw/",
   // linkedin: "https://www.linkedin.com/in/saadpasta/",
-  // gmail: "saadpasta70@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -50,15 +52,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Front-End Development",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Example1"),
+    emoji("⚡ Example2"),
+    emoji("⚡ Example3")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -127,7 +125,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "도인이",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
@@ -138,7 +136,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "거북이",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
@@ -362,8 +360,8 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  // subtitle:
+  //   "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "010-5097-0428",
   email_address: "gusdndls@naver.com"
 };

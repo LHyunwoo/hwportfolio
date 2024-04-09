@@ -68,9 +68,9 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.instagram ? (
+      {socialMediaLinks.Instagram ? (
         <a
-          href={socialMediaLinks.instagram}
+          href={socialMediaLinks.Instagram}
           className="icon-button instagram"
           target="_blank"
           rel="noopener noreferrer"
