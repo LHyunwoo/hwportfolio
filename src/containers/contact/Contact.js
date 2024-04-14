@@ -54,10 +54,10 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            <img
+            {/* <img
               alt="Man working"
               src={hyeonwoo}
-            ></img>
+            ></img> */}
           </div>
         </div>
       </div>

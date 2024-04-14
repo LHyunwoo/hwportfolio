@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Hyeon Woo",
-  // title: "Hi all, I'm HyeonWoo",
-  title: "Hi all, I'm Turtle",
+  title: "안녕하세요.",
+  // title: "Hi all, I'm Turtle",
   subTitle: emoji(
     // "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-    // "React & Typescript projects"
-    "도인❤️"
+    "React에 관심이 많은 프론트 엔드 개발자 이현우입니다."
+    // "도인❤️"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -125,23 +125,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "도인이",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "온양고등학교",
+      logo: require("./assets/images/onyang.png"),
+      subHeader: "인문계열",
+      duration: "2013.03 ~ 2016.02",
     },
     {
-      schoolName: "거북이",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "남서울대학교",
+      logo: require("./assets/images/nsu.png"),
+      subHeader: "공간정보공학과 학사",
+      duration: "2016.03 ~ 2022.02",
+    },
+    {
+      schoolName: "쌍용교육센터",
+      logo: require("./assets/images/sist.png"),
+      subHeader: "JAVA 기반 full-stack 개발자 양성 과정",
+      duration: "2021.07 ~ 2021.12",
     }
   ]
 };
@@ -173,29 +172,11 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "onpoom",
+      companylogo: require("./assets/images/onpoom.png"),
+      date: "2021.12.13 ~ (재직 중)",
+      desc: "디지털융합본부/연구개발팀/연구원(팀원)",
     }
   ]
 };
@@ -211,29 +192,38 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Project Experience",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/digitaltwin.png"),
+      projectName: "LX 디지털 트윈 플랫폼 구축",
+      projectDesc: "설명",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://106.245.249.226:8087/map/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/과기부.png"),
+      projectName: "국민 SOC",
+      projectDesc: "설명",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://106.245.249.226:8087/map/"
+      //   }
+      // ]
+    },
+    {
+      image: require("./assets/images/복지부.png"),
+      projectName: "방역공조",
+      projectDesc: "설명",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://112.217.210.138:11080/map/"
         }
       ]
     }
