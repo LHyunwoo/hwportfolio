@@ -123,20 +123,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "온양고등학교",
+      logo: require("./assets/images/onyang.png"),
+      subHeader: "인문계열",
+      duration: "2013.03 ~ 2016.02",
+    },
+    {
       schoolName: "남서울대학교",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "공간정보공학과 졸업",
+      logo: require("./assets/images/nsu.png"),
+      subHeader: "공간정보공학과 학사",
       duration: "2016.03 ~ 2022.02",
-      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
       schoolName: "쌍용교육센터",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "JAVA 기반 Full-Stack 개발자 양성 과정",
+      logo: require("./assets/images/sist.png"),
+      subHeader: "JAVA 기반 full-stack 개발자 양성 과정",
       duration: "2021.07 ~ 2021.12",
-      // desc: "Participated in the research of XXX and published 3 papers.",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -216,19 +218,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "LX Digital Twin Platform",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://106.245.249.226:8087/map/"
         }
       ]
     },
@@ -240,6 +230,17 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "LX Digital Twin Platform",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://112.217.210.138:11080/map/"
         }
       ]
     }
